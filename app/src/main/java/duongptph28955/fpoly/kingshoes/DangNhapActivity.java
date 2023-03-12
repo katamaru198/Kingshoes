@@ -15,7 +15,6 @@ import com.google.android.material.textfield.TextInputLayout;
 
 public class DangNhapActivity extends AppCompatActivity {
 
-
     TextInputLayout edtTaiKhoan, edtMatKhau;
     Button btnDangNhap;
     CheckBox chkLuu;
@@ -29,8 +28,14 @@ public class DangNhapActivity extends AppCompatActivity {
         btnDangNhap = findViewById(R.id.btnDangNhap);
         chkLuu = findViewById(R.id.chkLuu);
 
+        btnDangNhap.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(DangNhapActivity.this, MainActivity.class));
+            }
+        });
+
 //        ThanhVienDAO thanhVienDAO = new ThanhVienDAO(this);
-//
 //        //sự kiện đăng nhập
 //        btnDangNhap.setOnClickListener(new View.OnClickListener() {
 //            @Override

@@ -15,6 +15,7 @@ import android.view.MenuItem;
 
 import com.google.android.material.navigation.NavigationView;
 
+import duongptph28955.fpoly.kingshoes.fragment.fragmentLoaiSach;
 import duongptph28955.fpoly.kingshoes.fragment.fragmentThemTaiKhoan;
 
 public class MainActivity extends AppCompatActivity {
@@ -40,7 +41,7 @@ public class MainActivity extends AppCompatActivity {
                 switch (item.getItemId()){
 
                     case R.id.action_LoaiGiay:
-
+                        fragment = new fragmentLoaiSach();
                         break;
                     case R.id.action_Giay:
 
