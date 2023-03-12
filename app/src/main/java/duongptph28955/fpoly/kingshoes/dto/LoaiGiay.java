@@ -4,6 +4,7 @@ public class LoaiGiay {
     private int maLoai;
     private String tenLoai;
 
+
     public LoaiGiay(int maLoai, String tenLoai) {
         this.maLoai = maLoai;
         this.tenLoai = tenLoai;
