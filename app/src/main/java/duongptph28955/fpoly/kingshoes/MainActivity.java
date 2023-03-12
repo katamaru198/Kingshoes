@@ -15,6 +15,8 @@ import android.view.MenuItem;
 
 import com.google.android.material.navigation.NavigationView;
 
+import duongptph28955.fpoly.kingshoes.fragment.fragmentThemTaiKhoan;
+
 public class MainActivity extends AppCompatActivity {
     NavigationView nav;
     Toolbar toolbar;
@@ -62,7 +64,7 @@ public class MainActivity extends AppCompatActivity {
 
                         break;
                     case R.id.action_themTaiKhoan:
-
+                        fragment = new fragmentThemTaiKhoan();
                         break;
                     case R.id.action_doiPass:
 
