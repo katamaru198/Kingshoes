@@ -3,13 +3,13 @@ package duongptph28955.fpoly.kingshoes.dto;
 public class ThanhVien {
     private String maTV;
     private String tenTV;
-    private int soDT;
+    private String soDT;
     private String matKhau;//abc
 
     public ThanhVien() {
     }
 
-    public ThanhVien(String maTV, String tenTV, int soDT, String matKhau) {
+    public ThanhVien(String maTV, String tenTV, String soDT, String matKhau) {
         this.maTV = maTV;
         this.tenTV = tenTV;
         this.soDT = soDT;
@@ -32,11 +32,11 @@ public class ThanhVien {
         this.tenTV = tenTV;
     }
 
-    public int getSoDT() {
+    public String getSoDT() {
         return soDT;
     }
 
-    public void setSoDT(int soDT) {
+    public void setSoDT(String soDT) {
         this.soDT = soDT;
     }
 
