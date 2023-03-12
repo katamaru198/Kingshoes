@@ -4,7 +4,7 @@ public class ThanhVien {
     private String maTV;
     private String tenTV;
     private int soDT;
-    private String matKhau;
+    private String matKhau;//abc
 
     public ThanhVien() {
     }
