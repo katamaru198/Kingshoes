@@ -49,9 +49,11 @@
         android:layout_width="match_parent"
         android:layout_marginTop="10dp"
         android:layout_height="wrap_content"
+        app:passwordToggleEnabled="true"
         android:hint="Mật khẩu">
         <com.google.android.material.textfield.TextInputEditText
             android:layout_width="match_parent"
+            android:inputType="textPassword"
             android:layout_height="wrap_content" />
     </com.google.android.material.textfield.TextInputLayout>
 
@@ -70,7 +72,7 @@
         android:text="Đăng nhập"/>
 
     <TextView
-        android:layout_marginTop="150dp"
+        android:layout_marginTop="50dp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textSize="15dp"
