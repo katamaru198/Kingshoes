@@ -28,6 +28,7 @@ public class DangNhapActivity extends AppCompatActivity {
         btnDangNhap = findViewById(R.id.btnDangNhap);
         chkLuu = findViewById(R.id.chkLuu);
 
+
         btnDangNhap.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -53,7 +54,8 @@ public class DangNhapActivity extends AppCompatActivity {
 //                    Toast.makeText(DangNhapActivity.this, "Khong Dung", Toast.LENGTH_SHORT).show();
 //                }
 //            }
-//        });
+//        })
 
+        /////asdjhasbdhjbsahjdbsahjbdhjsabhjdbsajhdbaasdsadsadsadas
     }
 }
